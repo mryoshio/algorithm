@@ -4,6 +4,7 @@ using namespace std;
 /*
   p: parent of node x
   r: rank (representative of set including x)
+  ref: http://bit.ly/28TtaLs
 */
 class DisjointSet {
   vector<int> p, r;
